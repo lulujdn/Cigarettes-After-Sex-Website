@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Brown Sugar";
+    src: url("fonts/Brown Sugar .ttf") format(ttf),
+         url("fonts/Brown Sugar .otf") format(otf);
+         font-weight: normal;
+         font-style:normal;
+}
+@font-face {
+    font-family: "Blinker Regular";
+    src: url("fonts/Blinker-Regular.ttf") format(ttf);
+}
+@font-face {
+    font-family: "Blinker Light";
+    src: url("fonts/Blinker-Light.ttf") format(ttf);
+}
+@font-face {
+    font-family: "Blinker SemiLight";
+    src: url("fonts/Blinker-SemiLight.ttf") format(ttf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Blinker SemiLight";
+    color:rgba(186, 163, 130, 0.794);
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin:0;
+}
+.nav li {
+    display: inline
+}
+.nav a {
+    display: inline-block;
+    padding: 1.25ch;
+    color:antiquewhite;
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-size: 3ch;
+    font-weight: lighter;
+    border-bottom: 0.5px solid antiquewhite;
+}
+.main-nav li {
+    padding: 0 4%;
+}
+.nav a:hover {
+    color:rgb(132, 109, 82)
+}
+.main-header {
+    background-image: url("images/banner\ 2.jpeg");
+    background-color: rgba(0, 0, 0, .25);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px ;
+}
+.band-name {
+    text-align: center;
+    margin: 1ch;
+    font-family:"Brown Sugar";
+    font-size: 3ch;
+    font-style: normal;
+    color: antiquewhite;
+} 
+.band-name-large {
+    font-size: 5ch;
+    padding-top: 1ch;
+}
+.content-section {
+    margin: 1em;
+}
+.container {
+    max-width: 900px;
+    padding: 0 1.5em;
+    margin: 0 auto;
+}
+.section-header{
+    font-family: "Blinker SemiLight";
+    font-size: 3ch; 
+    font-weight: normal;
+}
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 85%;
+}
+.main-paragraph {
+    text-align: justify;
+    font-size: 2ch;
+    font-family: "Blinker SemiLight";
+}
+.second-paragraph {
+    text-align: justify;
+    font-size: 2ch;
+    font-family: "Blinker SemiLight";
+}
+.main-footer {
+    background-color: rgb(132, 109, 82);
+    padding: .25em 0; 
+    color:antiquewhite
+}
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+   padding: 0 .5em;
+}
+.footer-nav img {
+    width: 20px;
+    height: 20px;
+}
